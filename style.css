@@ -28,8 +28,12 @@ nav{
 div.menu-icone{
     width: 48px;
     height: 2px;
+    z-index: 1;
     background-color: white;
     box-shadow: -15px -9px 0px white, -15px 10px 0px white;
+}
+.menu-icone:hover{
+    transform: scale(1.5);
 }
 
 main{
@@ -43,7 +47,9 @@ h1{
     padding-right: 400px;
     position: absolute;
 }
-
+h1:hover{
+    transform: scale(1.5);
+}
 .logo_coca{
     position: absolute;
     width: 90vw;
@@ -56,6 +62,10 @@ h1{
     max-width: 100%;
     /* aplica a sombra atras da imagem, primeiro do lado direito, embaixo, a esfumação/desfoque e a cor da sombra*/
     filter: drop-shadow(0px 200px 60px #691f1f);
+
+}
+.garrafa_coca:hover{
+    transform: rotate(20deg);
 }
 
 footer{
